@@ -8,8 +8,10 @@
 
 2.筛选出一定张数的人脸图片，在项目根目录里打开命令行，输入 python load_face_dataset.py user1，其中user1 为人脸图片的文件夹目录.  
 
-3.运行face_train_use_keras.py  
+3.新建文件夹model，新建模型me.face.model.h5
 
-4.运行face_predict_use_keras.py  
+4.运行face_train_use_keras.py  
+
+5.运行face_predict_use_keras.py  
 
 注：也可以不用在命令行中输入.py文件加设备号（0）的方式运行，可以注释掉main里的if判断，在cv2中的需要调用摄像头设备号的函数里直接写0。
